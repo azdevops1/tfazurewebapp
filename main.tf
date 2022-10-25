@@ -159,3 +159,13 @@ resource "azurerm_virtual_machine_extension" "vm-extensions" {
 SETTINGS
 
 }
+
+output "public_ip_adress" {
+    description = "The IP of the App gateway"
+    value       = azurerm_public_ip.pip1.ip_address
+}
+
+output "public_ip_address_name" {
+    description = "The name of the App gateway"
+    value       = azurerm_public_ip.pip1.name     
+}
