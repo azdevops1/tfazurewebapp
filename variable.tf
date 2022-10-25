@@ -1,3 +1,8 @@
+variable "resource group" {
+  description = "Specifies which Resrouce Group"
+  type        = string
+}
+
 variable "backend_address_pool_name" {
     default = "myBackendPool"
 }
