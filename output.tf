@@ -20,7 +20,7 @@ output "backend_http_settings_probe_id" {
 
 output "frontend_ip_configuration_id" {
   description = "The ID of the Frontend IP Configuration"
-  value       = azurerm_application_gateway.network.frontend_ip_configuration.*.ip_address
+  value       = azurerm_application_gateway.network.frontend_ip_configuration.*.id
 }
 
 output "public_ip_gateway" {
