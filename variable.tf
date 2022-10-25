@@ -20,7 +20,8 @@ variable "http_setting_name" {
 }
 
 variable "listener_name" {
-    default = "myListener"
+    description = "Specify listener name"
+    type        = string
 }
 
 variable "request_routing_rule_name" {
