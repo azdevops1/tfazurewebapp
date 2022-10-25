@@ -1,4 +1,4 @@
-variable "resource group" {
+variable "resource_group" {
   description = "Specifies which Resrouce Group"
   type        = string
 }
