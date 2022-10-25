@@ -1,5 +1,5 @@
 variable "resource_group" {
-  description = "Specifies which Resrouce Group"
+  description = "Specifies which Resource Group"
   type        = string
 }
 
