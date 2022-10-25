@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg1" {
-  name     = "WebAppgatewayDemo"
+  name     = "WebAppgatewayDm"
   location = "eastus"
 }
 
