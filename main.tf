@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg1" {
-  name     = "myResourceGroupAG"
+  name     = var.resource_group
   location = "eastus"
 }
 
